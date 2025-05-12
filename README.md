@@ -23,29 +23,20 @@ Perfect for moments when making a choice should be as fun as the outcome.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/santos-404/vibescii.git
-cd vibescii
+git clone https://github.com/darrodsas/grizzly.git
+cd grizzly
 ```
 
 2. Install dependencies:
 ```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
+bum install
 ```
 
 3. Start the development server:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+bum run dev
 ```
-
-Then open `http://127.0.0.1:7777` in your browser.
+4. Then open `http://127.0.0.1:7777` in your browser.
 
 ## How to Use
 
