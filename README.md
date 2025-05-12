@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+# Grizzly
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Grizzly** is a web application designed to make random decisions in a fun and interactive way. Inspired by the *CS\:GO* case opening animation, Grizzly allows users to define their own items (text or images) and watch as one is selected through a side-scrolling animation.
 
-## Available Scripts
+Perfect for moments when making a choice should be as fun as the outcome.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* 🎰 CS\:GO-style case opening animation for randomness.
+* 🧹 Fully customizable: add your own text or image items.
+* ⚡ Fast, clean, and responsive interface.
+* 🛠️ Frontend only: built with React, TypeScript, and Tailwind CSS.
+* 🔓 Open source under the MIT license.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **React** – Modern UI framework.
+* **TypeScript** – Static typing for improved reliability.
+* **Tailwind CSS** – Utility-first CSS framework for flexible design.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧪 Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/yourusername/grizzly.git
+cd grizzly
+npm install
+npm run dev
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then open `http://localhost:5173` in your browser.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🔹 How to Use
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Add the items you want to randomize (text or images).
+2. Click the button to start the animation.
+3. Let Grizzly pick the result for you.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🌐 Live Demo
 
-## Learn More
+Grizzly is deployed on Vercel:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔗 [https://grizzly.vercel.app](https://grizzly.vercel.app)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Created by **Darío Rodríguez** and **Javier Santos**.
