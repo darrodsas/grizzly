@@ -1,7 +1,10 @@
-export default function Card(){
+export default function Card({card}: {card: string}){
 
   return (
-    <div className="w-60 h-40 border border-black">
+    <div className="min-w-[200px] h-[140px] border border-black text-3xl text-center">
+      <p>
+        {card}
+      </p>
     </div>
   );
 }
