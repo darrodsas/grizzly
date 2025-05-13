@@ -13,7 +13,7 @@ export default function RouletteBar(){
   
   // There must be a cleaner way to do this. this is temporary
   useEffect(() => {
-    if (cards.length < numberOfCards) {
+    if (cards.length <= numberOfCards) {
       let cardsCopy = [...cards];
       for (let i = cards.length; i < numberOfCards; i++) {
         if (cards.length !== 0)
