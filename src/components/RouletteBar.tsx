@@ -16,7 +16,11 @@ export default function RouletteBar(){
     if (cards.length < numberOfCards) {
       let cardsCopy = [...cards];
       for (let i = cards.length; i < numberOfCards; i++) {
-        cardsCopy.push("Hola");
+        if (cards.length !== 0) {
+          cardsCopy.push(cards[i%cards.length]);
+        } else {
+          cardsCopy.push("Hola");
+        }
       }
       setCardsToRender(cardsCopy);
     }
